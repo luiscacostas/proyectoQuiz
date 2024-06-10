@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(176, 189, 229);
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2, h3{
     margin: 0;
@@ -53,19 +54,19 @@ button{
 #option4{
     background-color: palevioletred;
 }
-#siguiente{
+#next{
     background-color: blue;
 }
-#option1, #option2, #option3, #option4, #siguiente{
+#option1, #option2, #option3, #option4, #next{
     color: white;
     cursor: pointer;
     font-size: 20px;
 }
-#option1:hover, #option2:hover, #option3:hover, #option4:hover, #siguiente:hover{
+#option1:hover, #option2:hover, #option3:hover, #option4:hover, #next:hover{
     filter: brightness(80%);
 }
 
-#siguiente{
+#next{
     width: 50%;
     align-self: flex-end;
     border: none;
