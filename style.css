@@ -40,17 +40,16 @@ button{
    
 }
 
-#option1{
-    background-color: rgb(179, 31, 31);
+.option1{
+    background-color: rgb(92, 94, 90);
 }
-#option2{
-    background-color: yellowgreen;
-
+.option2{
+    background-color: rgb(19, 123, 139);
 }
-#option3{
+.option3{
     background-color: blueviolet;
 }
-#option4{
+.option4{
     background-color: palevioletred;
 }
 #siguiente{
@@ -79,4 +78,11 @@ button{
 }
 .quiz h3{
     padding: 20px;
+}
+
+.styleOptionActive{
+    background-color: yellowgreen;
+}
+.styleOptionInactive{
+    background-color: red;
 }
